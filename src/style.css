@@ -31,7 +31,7 @@ ul{
     display: flex;
     list-style-type: none;
     width: 500px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 30px;
 }
 
@@ -54,6 +54,11 @@ h2{
     color: lightblue;
 }
 
+h3{
+    font-size: 20px;
+    color: lightblue;
+}
+
 p{
     margin: 0; 
     font-size: 20px;
@@ -62,7 +67,7 @@ p{
 }
 
 .subtext{
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
     color: white;
 }
@@ -79,6 +84,12 @@ p{
     font-weight: 400;
     color: lightblue;
     text-decoration: none;
+}
+
+.back_up{
+    font-size: 80px;
+    font-weight: 400;
+    color: lightblue;
 }
 
 .info_area{
@@ -146,8 +157,8 @@ p{
 }
 
 .project_card{
-    width: 300px;
-    height: 500px;
+    width: 400px;
+    height: 600px;
     box-shadow: 5px 5px 20px lightblue;
     margin: 10px;
 }
